@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+html,body{
+
+    height: 100%;
+}
+
+:root{
+
+    --primary: #000000;
+}
+
+/* Principal */
+
+body div.container{
+
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+}
+
+body div.bg{
+    background-image: url('../img/jesse-chan-oGD0kG27OyQ-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+header nav ul{
+
+    text-align: left;
+    margin-left: 30px;
+}
+
+header nav ul li{
+
+    display: inline-block;
+    margin: 20px;
+}
+
+header nav ul li a{
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+
+    background-color: #000000;
+    transition: 0.5s;
+    
+}
+main h2{
+
+    margin: 20%;
+    
+    color: white;
+    letter-spacing: 4px;
+    font-size: 55px;
+   
+    border-bottom: 2px solid white;
+}
+
+/**/
+
+div.galery{
+
+    display: flex;
+    width: 100%;
+    padding: 2%;
+    overflow-x: hidden !important ;
+    flex-direction: row;
+
+}
+
+div.galery div.img{
+    border-radius: 10px;
+    width: 50%;
+    padding-top: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/monica-garniga-XClNDg9Z9Ag-unsplash.jpg');
+}
+
+div.galery p{
+    width: 50%;
+    color: var(--primary);
+  
+    text-align: center;
+    margin: 10px;
+    padding: 2%;
+}
+
+
+div.galery h2{
+    display: inline-block;    
+    text-align: center;
+}
+
+footer{
+    color: white;
+    text-align: center;
+   
+}
+
+footer div.footer{
+    padding: 20px;
+    width: 100%;
+    background-color: var(--primary);
+
+}
+.mapouter{
+    overflow: hidden !important;
+    position:relative;
+    text-align:right;
+    height:400px;
+    margin-left: 100px;
+    width:400px;
+}
+.gmap_canvas {
+    overflow:hidden !important;
+    background:none!important;
+    height:400px;
+    width:400px;
+}
+
+header nav.form ul li a{
+    color: var(--primary) !important;
+}
+
+header nav.form ul li a:hover{
+  color: white !important;
+}
+
+form > h3{
+    margin: 20px 0; 
+}
+form input[type=text],form input[type=email],form input[type=tel]{
+
+    line-height: 40px;
+    margin: 10px;
+    outline: 0;
+    border-radius: 20px;
+    border: 1px solid var(--primary);
+    padding: 10px;
+    width: 70%;
+}
+
+/* Global*/
+
+.reverse{
+    flex-direction: row-reverse !important;
+}
+
+.img1{
+    background-image: url('../img/sawyer-bengtson-YaSH0DbU5lE-unsplash.jpg') !important;
+}
+
+.img2{
+    background-image: url('../img/bg.jpg') !important;
+}
+
+.img3{
+    background-image: url('../img/greg-rakozy-eorb_1PkoB8-unsplash.jpg') !important;
+}
+
+.undraw{
+    background-image: url('../img/undraw_Analysis_re_w2vd.svg');
+    width: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.mg-20{
+    margin: 20px !important;
+
+}
+
+.undraw-form{
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../img/undraw_fill_forms_yltj.svg');
+    width: 50%;
+    height: 25em;
+
+}
+.mt-20{
+    margin-top: 20px;
+}
+
+input[type=submit]{
+    height: 55px;
+    width: 50%;
+    display: inline-block;
+    background-color: #000000;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+
+input[type=submit]:hover{
+
+    transition: 0.3s;
+    transition-timing-function: ease-in;
+    background-color: #575A89;
+}
+.scale{
+    transition: 1s !important;
+}
+.scale:hover{
+    transform: scale(1.05) !important;
+}
+.animate{
+
+    display: none;
+}
+
+.click{
+    display: none;
+}
